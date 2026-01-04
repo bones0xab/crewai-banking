@@ -1,61 +1,47 @@
 **Rapport financier**
 
-Pour générer le rapport financier, nous allons analyser les données fournies et calculer les différents éléments demandés.
+Pour générer le rapport financier, nous allons analyser les données fournies et calculer les indicateurs clés tels que le total des revenus, les dépenses totales, le solde net, les catégories de dépense principales et trois recommandations.
 
-**1. Total income**
+**Total des revenus :**
+Le total des revenus est calculé en additionnant les montants des transactions d'incomes. 
 
-Les revenus totaux sont calculés en additionnant les différentes catégories de revenus :
+| Date | Montant | Description | Catégorie |
+| --- | --- | --- | --- |
+| 10/03/2023 | 763,01 | Prélèvement autorisé par crédit | INCOME |
+| 10/07/2023 | 400,00 | Achats en ligne | INCOME |
+| 10/10/2023 | 800,00 | Achat en ligne | INCOME |
 
-* INCOME : 1000
-* PAYROLL : 5000
-* PREAUTHORIZEDCREDIT : 2000
+Total des revenus : 963,01
 
-Total income = INCOME + PAYROLL + PREAUTHORIZEDCREDIT
-= 1000 + 5000 + 2000
-= 8000
+**Dépenses totales :**
+Les dépenses totales sont calculées en additionnant les montants des transactions de dépenses.
 
-**2. Total expenses**
+| Date | Montant | Description | Catégorie |
+| --- | --- | --- | --- |
+| 10/02/2023 | -4,23 | Achat au magasin | SHOPPING |
+| 10/05/2023 | -50,00 | Repas à un restaurant | SHOPPING |
+| 10/06/2023 | -100,00 | Rendre une checkée | BILLS |
+| 10/09/2023 | -50,00 | Retour de cash | CASH |
 
-Les dépenses totales sont calculées en additionnant les différentes catégories de dépenses :
+Dépenses totales : -204,23
 
-* SHOPPING : 1500
-* POS PURCHASE : 1000
-* BILLS : 500
-* BILL PAYMENT : 300
-* CHECK CASHED : 200
-* CASH : 800
-* ATM WITHDRAWAL : 400
-* FEES : 600
-* SERVICE CHARGE : 400
+**Solde net :**
+Le solde net est calculé en soustrayant les dépenses totales des revenus totaux.
 
-Total expenses = SHOPPING + POS PURCHASE + BILLS + BILL PAYMENT + CHECK CASHED + CASH + ATM WITHDRAWAL + FEES + SERVICE CHARGE
-= 1500 + 1000 + 500 + 300 + 200 + 800 + 400 + 600 + 400
-= 5100
+Solde net : 758,78
 
-**3. Net balance**
+**Catégories de dépense principales :**
+Les catégories de dépense principales sont identifiées à partir des transactions fournies.
 
-La balance nette est calculée en soustrayant les dépenses totales des revenus totaux :
+*   **Shopping** : -54,23 (10/02/2023 et 10/05/2023)
+*   **Fees** : 150,00 (10/08/2023)
+*   **Cash** : -50,00 (10/09/2023)
 
-Net balance = Total income - Total expenses
-= 8000 - 5100
-= 2900
+**Trois recommandations :**
 
-**4. Top spending categories**
+1.  **Réduire les dépenses de shopping** : Pour améliorer le solde net et réduire la dépendance aux achats.
+2.  **Gérer les frais** : Assurer que les paiements pour services sont réguliers et prévus pour éviter les surprises.
+3.  **Optimiser les revenus** : Considérant les revenus totaux, il est possible de réduire la dépendance aux achats en augmentant le montant des revenus.
 
-Les catégories de dépenses les plus importantes sont :
-
-* SHOPPING : 1500 (30% du total des dépenses)
-* POS PURCHASE : 1000 (20% du total des dépenses)
-* BILLS : 500 (10% du total des dépenses)
-
-**5. 3 recommendations**
-
-En fonction des données, nous pouvons formuler les trois recommandations suivantes :
-
-1. Réduire les dépenses de SHOPPING pour minimiser l'impact sur la balance nette.
-2. Optimiser les paiements en ligne (POS PURCHASE) pour réduire les frais de transaction.
-3. Négocier un tarif plus avantageux avec les fournisseurs pour réduire les dépenses de BILLS.
-
-**Conclusion**
-
-Le rapport financier indique que la balance nette est de 2900, ce qui représente une proportion significative des revenus totaux. Les catégories de dépenses les plus importantes sont SHOPPING, POS PURCHASE et BILLS. En suivant les recommandations proposées, il est possible de réduire les dépenses et améliorer la balance nette.
+**Conclusion :**
+Le rapport financier fourni permet une analyse approfondie du comportement financier. Les recommandations proposées visent à améliorer le solde net et à optimiser les revenus.
