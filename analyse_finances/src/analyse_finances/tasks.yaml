@@ -1,0 +1,14 @@
+extract_task:
+  description: "Parser le PDF {pdf_path} en liste transactions CSV"
+  expected_output: "Pandas DataFrame/CSV avec colonnes date, montant, description"
+  agent: pdf_extractor
+
+categorize_task:
+  description: "Classer transactions de {extracted_data}"
+  expected_output: "Tableau avec colonne 'categorie' ajoutée"
+  agent: expense_categorizer
+
+analyze_task:
+  description: "Analyser {categorized_data} pour résumé"
+  expected_output: "Rapport : totaux/catégories, graphiques, 3 conseils"
+  agent: financial_analyst
